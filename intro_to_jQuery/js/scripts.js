@@ -29,15 +29,15 @@ $( function() {
     $( "#menu" ).menu();
   } );
 
-  $( function() {
-    $( "#traditional" ).selectmenu();
+$( function() {
+  $( "#traditional" ).selectmenu();
  
-    $( "#image-based" ).selectmenu();
+  $( "#image-based" ).selectmenu();
  
-    $( "#video-based" )
-      .selectmenu()
-      .selectmenu( "menuWidget" )
-        .addClass( "overflow" );
- 
-    $( "#discussion" ).selectmenu();
+  $( "#video-based" )
+    .selectmenu()
+    .selectmenu( "menuWidget" )
+      .addClass( "overflow" );
+      
+  $( "#discussion" ).selectmenu();
   } );

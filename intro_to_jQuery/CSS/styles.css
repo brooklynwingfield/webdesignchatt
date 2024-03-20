@@ -1,0 +1,117 @@
+body {
+    background-color: #45930b;
+    font-family: 'Madimi One', sans-serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #45930b;
+    text-shadow: 2px 2px 2px black;
+    font-size: 2em;
+}
+
+h3 {
+    text-align: center;
+    color: #45930b;
+    text-shadow: 1px 1px 0.5px black;
+}
+
+#container {
+    background-color: #adc178;
+    width: 85%;
+    margin: 20px auto;
+}
+
+p {
+    width: 85%;
+    margin: 20px auto;
+}
+
+div p {
+    font-family: 'Madimi One', sans-serif;
+    
+}
+
+header {
+    background-color: #faedcd;
+}
+
+
+button {
+    background-color: #faedcd;
+    color: #45930b;
+    padding: 10px 40px;
+    margin: 10px;
+    font-family: 'Madimi One', sans-serif;
+}
+
+header img {
+    width: 75%;
+}
+
+nav {
+    background-color: #adc178;
+    text-align: center;
+    border-top: 4px solid #45930b;
+    border-bottom: 4px solid #45930b;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+main img {
+    width: 75%;
+}
+
+footer {
+    background-color: #faedcd;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 4px solid #45930b;
+    color: #45930b;
+    text-shadow: 1px 1px 0.5px black;
+}
+
+#accordion {
+    width: 75%;
+    margin: 20px auto;
+    font-family: 'Madimi One', sans-serif;
+}
+
+#menu {
+    .ui-menu { width: 150px; };
+    width: 75%;
+    margin: 20px auto;
+    font-family: 'Madimi One', sans-serif;
+}
+
+#menu li {
+    font-family: 'Madimi One', sans-serif;
+}
+
+.demo {
+    text-align: center;
+}
+
+fieldset {
+    border: 0;
+  }
+  label {
+    display: block;
+    margin: 30px 0 0 0;
+  }
+  .overflow {
+    height: 200px;
+  }

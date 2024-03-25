@@ -91,10 +91,13 @@ footer {
 }
 
 #menu {
-    .ui-menu { width: 150px; };
     width: 75%;
     margin: 20px auto;
     font-family: 'Madimi One', sans-serif;
+}
+
+.ui-menu { 
+    width: 150px; 
 }
 
 #menu li {

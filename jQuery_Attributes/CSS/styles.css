@@ -100,3 +100,15 @@ footer {
     color: #023047;
     text-shadow: 1px 1px 0.5px black;
 }
+
+.kits {
+    text-align: center;
+}
+
+.chicken_kit, .dinosaur_kit, .lion_kit, .narwhal_kit, .pig_kit, .bunny_kit {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ffb703;
+    margin: 10px;
+}

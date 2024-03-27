@@ -11,6 +11,9 @@ $( function() {
     $("h2").css("text-align", "center");
 } );
 
+$("button").click(function(){
+  $("ul").slideToggle();
+});
 
   $( function() {
     $( "#dialog" ).dialog();
@@ -27,27 +30,27 @@ $( function() {
 $(function() {
   
   $("#kslide1").click(function () {
-    $("img").last().attr("src", "Images/Chicken_Kit.jpg");
+    $(".slide").attr("src", "Images/Chicken_Kit.jpg");
   });
 
   $("#kslide2").click(function () {
-    $("img").last().attr("src", "Images/Chicken_Kit.jpg");
+    $(".slide").attr("src", "Images/Dinosaur_Kit.jpg");
   });
 
   $("#kslide3").click(function () {
-    $("img").last().attr("src", "Images/Chicken_Kit.jpg");
+    $(".slide").attr("src", "Images/Lion_Kit.jpg");
   });
 
   $("#kslide4").click(function () {
-    $("img").last().attr("src", "Images/Chicken_Kit.jpg");
+    $(".slide").attr("src", "Images/Narwhal_Kit.jpg");
   });
 
   $("#kslide5").click(function () {
-    $("img").last().attr("src", "Images/Chicken_Kit.jpg");
+    $(".slide").attr("src", "Images/Pig_Kit.jpg");
   });
 
   $("#kslide6").click(function () {
-    $("img").last().attr("src", "Images/Chicken_Kit.jpg");
+    $(".slide").attr("src", "Images/Bunny_Kit.jpg");
   });
 
 });

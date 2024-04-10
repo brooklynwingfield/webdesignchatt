@@ -1,0 +1,185 @@
+body {
+    background-color: #b8292e;
+    font-family: 'Dokdo';
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #5b3a33;
+    text-shadow: 2px 2px 2px black;
+    font-size: 2em;
+}
+
+h3 {
+    text-align: center;
+    color: #5b3a33;
+    text-shadow: 1px 1px 0.5px black;
+    font-size: 1.75em;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px;
+}
+
+#container {
+    background-color: #d99953;
+    width: 85%;
+    margin: 20px auto;
+}
+
+button {
+    background-color: #307681;
+    color: whitesmoke;
+    padding: 10px 40px;
+    margin: 10px;
+    font-family: 'Dokdo';
+    font-size: larger;
+}
+
+p {
+    width: 85%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: large;
+}
+
+div p {
+    font-family: 'Dokdo';
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: #d99953;
+    text-align: center;
+    border-top: 4px solid #b8292e;
+    font-family: 'Dokdo';
+    font-size: larger;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    color: black;
+}
+
+main img {
+    width: 75%;
+}
+
+#first {
+    border-top: 4px solid #b8292e;
+    border-bottom: 4px solid #b8292e;
+}
+
+#second, #third, #fourth, #fifth, #sixth, #seventh, #eighth {
+    border-bottom: 4px solid #b8292e;
+}
+
+
+#second li, #fourth li, #fifth li {
+    text-align: center;
+    padding: 25px;
+}
+
+#fourth button {
+    width: 94%;
+}
+
+footer {
+    background-color: #d99953;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 4px solid #b8292e;
+    color: black;
+    text-shadow: 1px 1px 0.5px black;
+}
+
+.photo {
+    width: 100%;
+}
+
+.items, .games {
+    text-align: center;
+}
+
+.classicburgercombo, .bbqbaconcheeseburger, .veggieburger, .macncheeseburger, .mushroomswissburger, .spicychickensandwich, .buffalochickenwings, .loadedfries, .chilicheesefries, .garlicparmesanfries, .pacman, .streetfighterii, .galaga, .donkeykong, .mortalkombat, .spaceinvaders, .dancedancerevolution, .thesimpsonsarcadegame, .mspacman, .mariokartarcadegp {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ffb703;
+    margin: 10px;
+}
+
+.pacman, .streetfighterii, .galaga, .donkeykong, .dancedancerevolution, .mspacman, .mariokartarcadegp, .mortalkombat, .spaceinvaders, .thesimpsonsarcadegame {
+    width: 200px;
+    height: 200px;
+}
+
+#dialog img {
+    width: 100%;
+}
+
+#dialog p, #dialog h2, #dialog h3, #dialog h4 {
+    font-family: 'Dokdo';
+}
+
+.iframe {
+    height: 230px;
+    width: 230px;
+    resize: both;
+    overflow: auto;
+    margin: 0 auto;
+}  
+
+@media (min-width:768px) {
+    .iframe {
+        height: 510px;
+        width: 510px;
+        resize: both;
+        overflow: auto;
+        margin: 0 auto;
+    }
+
+    #fourth button {
+        width: 97%;
+    }
+
+    .pacman, .streetfighterii, .galaga, .donkeykong, .dancedancerevolution, .mspacman, .mariokartarcadegp, .mortalkombat, .spaceinvaders, .thesimpsonsarcadegame {
+        width: 450px;
+        height: 450px;
+    } 
+}
+
+@media (min-width: 1024px) {
+    button img {
+        width: 40%;
+    }
+
+    .pacman, .streetfighterii, .galaga, .donkeykong, .dancedancerevolution, .mspacman, .mariokartarcadegp, .mortalkombat, .spaceinvaders, .thesimpsonsarcadegame {
+        width: 500px;
+        height: 500px;
+    }
+
+    .iframe {
+        height: 800px;
+        width: 800px;
+        resize: both;
+        overflow: auto;
+        margin: 0 auto;
+    } 
+}

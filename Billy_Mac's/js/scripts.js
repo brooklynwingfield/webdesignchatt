@@ -28,43 +28,43 @@ $( function() {
 
 $(function() {
   
-  $("islide1").click(function () {
+  $("#islide1").click(function () {
     $(".slide").attr("src", "Images/menu/classicburgercombo.jpg");
   });
 
-  $("islide2").click(function () {
+  $("#islide2").click(function () {
     $(".slide").attr("src", "Images/menu/bbqbaconcheeseburger.png");
   });
 
-  $("islide3").click(function () {
+  $("#islide3").click(function () {
     $(".slide").attr("src", "Images/menu/veggieburger.png");
   });
 
-  $("islide4").click(function () {
+  $("#islide4").click(function () {
     $(".slide").attr("src", "Images/menu/macncheeseburger.jpg");
   });
 
-  $("islide5").click(function () {
+  $("#islide5").click(function () {
     $(".slide").attr("src", "Images/menu/mushroomswissburger.jpg");
   });
 
-  $("islide6").click(function () {
+  $("#islide6").click(function () {
     $(".slide").attr("src", "Images/menu/spicychickensandwich.png");
   });
 
-  $("islide7").click(function () {
+  $("#islide7").click(function () {
     $(".slide").attr("src", "Images/menu/buffalochickenwings.jpg");
   });
 
-  $("islide8").click(function () {
+  $("#islide8").click(function () {
     $(".slide").attr("src", "Images/menu/loadedfries.jpg");
   });
 
-  $("islide9").click(function () {
+  $("#islide9").click(function () {
     $(".slide").attr("src", "Images/menu/chilicheesefries.png");
   });
 
-  $("islide10").click(function () {
+  $("#islide10").click(function () {
     $(".slide").attr("src", "Images/menu/garlicparmesanfries.jpg");
   });
 

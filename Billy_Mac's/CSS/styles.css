@@ -186,22 +186,22 @@ details {
     margin: 30px;
     margin-bottom: 100px;
     background-color: #b8292e;
-  }
+}
 
-  details[open] summary {
+details[open] summary {
     background-color: #307681;
-  }
+}
 
-  details p {
+details p {
     padding: 5px;
     font-size: 20px;
-  }
+}
 
-  summary {
+summary {
     background-color: #307681;
     color: white;
     cursor: pointer;
     padding: 20px;
     margin: 5px;
     outline: solid #ffb703 2px;
-  }
+}

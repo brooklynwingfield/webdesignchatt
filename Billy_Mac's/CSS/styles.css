@@ -95,8 +95,8 @@ main img {
     padding: 25px;
 }
 
-#fourth button {
-    width: 94%;
+#fourth details {
+    text-align: center;
 }
 
 footer {
@@ -155,10 +155,6 @@ footer {
         margin: 0 auto;
     }
 
-    #fourth button {
-        width: 97%;
-    }
-
     .pacman, .streetfighterii, .galaga, .donkeykong, .dancedancerevolution, .mspacman, .mariokartarcadegp, .mortalkombat, .spaceinvaders, .thesimpsonsarcadegame {
         width: 450px;
         height: 450px;
@@ -183,3 +179,29 @@ footer {
         margin: 0 auto;
     } 
 }
+
+details {
+    outline: solid #307681 2px;
+    border-radius: 5px;
+    margin: 30px;
+    margin-bottom: 100px;
+    background-color: #b8292e;
+  }
+
+  details[open] summary {
+    background-color: #307681;
+  }
+
+  details p {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  summary {
+    background-color: #307681;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    margin: 5px;
+    outline: solid #ffb703 2px;
+  }
